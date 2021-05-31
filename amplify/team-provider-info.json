@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-reactquicksight-dev-234539-authRole",
+      "UnauthRoleArn": "arn:aws:iam::891048848327:role/amplify-reactquicksight-dev-234539-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::891048848327:role/amplify-reactquicksight-dev-234539-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-reactquicksight-dev-234539-deployment",
+      "UnauthRoleName": "amplify-reactquicksight-dev-234539-unauthRole",
+      "StackName": "amplify-reactquicksight-dev-234539",
+      "StackId": "arn:aws:cloudformation:us-east-1:891048848327:stack/amplify-reactquicksight-dev-234539/42807500-c227-11eb-a812-0ad6b76236b1",
+      "AmplifyAppId": "d2v56gov0x12ax"
+    }
+  }
+}
