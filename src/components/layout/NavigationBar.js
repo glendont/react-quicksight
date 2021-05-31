@@ -22,6 +22,9 @@ return (
     </Row>
 
     <div style={{float:"right",marginBottom:"2%", marginRight:"1%"}}>
+    <Link className="about_button" to="/dashboard">
+<h5 className="about_button"> Dashboard </h5>
+    </Link>{" "}
     <Link className="about_button" to="/about">
 <h5 className="about_button"> About </h5>
     </Link>{" "}
