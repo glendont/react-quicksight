@@ -12,17 +12,17 @@ import Amplify, { Analytics } from 'aws-amplify';
 import awsconfig from './aws-exports';
 Amplify.configure(awsconfig);
 
-const analyticsConfig = {
-  AWSPinpoint: {
-        // Amazon Pinpoint App Client ID
-        appId: 'e536884a49a649078bccc0de59c5c1d5',
-        // Amazon service region
-        region: 'us-east-1',
-        mandatorySignIn: false,
-  }
-}
+// const analyticsConfig = {
+//   AWSPinpoint: {
+//         // Amazon Pinpoint App Client ID
+//         appId: 'e536884a49a649078bccc0de59c5c1d5',
+//         // Amazon service region
+//         region: 'us-east-1',
+//         mandatorySignIn: false,
+//   }
+// }
 
-Analytics.configure(analyticsConfig)
+// Analytics.configure(analyticsConfig)
 
 const App = () => {
   return (

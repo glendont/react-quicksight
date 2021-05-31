@@ -1,0 +1,38 @@
+{
+  "paths": [
+    {
+      "name": "/getQuickSightDashboardEmbedURL",
+      "lambdaFunction": "reactquicksightfunction",
+      "privacy": {
+        "private": true,
+        "auth": [
+          "/GET"
+        ]
+      },
+      "policyResourceName": "/getQuickSightDashboardEmbedURL"
+    }
+  ],
+  "resourceName": "quicksight",
+  "apiName": "quicksight",
+  "functionArns": [
+    {
+      "lambdaFunction": "reactquicksightfunction"
+    }
+  ],
+  "privacy": {
+    "auth": 1,
+    "unauth": 0,
+    "authRoleName": "amplify-reactquicksight-dev-234539-authRole",
+    "unAuthRoleName": "amplify-reactquicksight-dev-234539-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "reactquicksightfunction",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}

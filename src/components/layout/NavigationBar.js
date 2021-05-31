@@ -12,8 +12,8 @@ return (
     <Row >
     <Link to="/home" className="logo">
         <Col className="logo"> 
-        <p> Career Progress</p>
-        <p  style={{marginTop:"-23px",marginLeft:"71px"}}> Board</p>
+        <p> React Quicksight</p>
+        <p  style={{marginTop:"-23px",marginLeft:"76px"}}> Board</p>
         <img src={logosmile} height="40px" width="150px" style={{margin:"-30px", marginLeft:"-40px", marginTop:"-75px"}}/> 
         </Col>    
 

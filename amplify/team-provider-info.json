@@ -10,6 +10,23 @@
       "StackName": "amplify-reactquicksight-dev-234539",
       "StackId": "arn:aws:cloudformation:us-east-1:891048848327:stack/amplify-reactquicksight-dev-234539/42807500-c227-11eb-a812-0ad6b76236b1",
       "AmplifyAppId": "d2v56gov0x12ax"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d2v56gov0x12ax",
+          "type": "cicd"
+        }
+      },
+      "auth": {
+        "reactquicksightf15a2c34": {}
+      },
+      "function": {
+        "reactquicksightfunction": {
+          "deploymentBucketName": "amplify-reactquicksight-dev-234539-deployment",
+          "s3Key": "amplify-builds/reactquicksightfunction-4a3437374a3066425377-build.zip"
+        }
+      }
     }
   }
 }

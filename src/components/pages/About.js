@@ -20,6 +20,8 @@ import { Element } from 'react-scroll'
 
 import {Link} from "react-scroll"
 
+import Embed from "./Embed"
+
 const ScrollLink = Scroll.ScrollLink
 
 const useStyles = makeStyles({
@@ -39,6 +41,7 @@ const About = () => {
     
     return (
         <div style={{height:"2500px"}}> 
+        <Embed/>
     
         <Row style={{ backgroundImage:`url(${Background})`,width:"100vw",backgroundSize:"100% 100%", height:"200px", margin:"0px"}}>
 
