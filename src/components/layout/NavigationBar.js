@@ -1,36 +1,62 @@
-import React from "react"
+import React, {Fragment} from "react"
 import { Link, useLocation } from "react-router-dom";
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
+import Container from "react-bootstrap/Container"
 import logosmile from "../img/logo_smile.png"
 import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react';
+import Button from 'aws-northstar/components/Button';
+import Divider from '@material-ui/core/Divider';
+import clubhouseicon from "../img/clubhouse_icon.png"
 
 const NavigationBar = () => {
 return (
+    <> 
+    <div className="navbar">
+    <Container fluid style={{backgroundColor:''}}>
+    {/* <Row fluid style={{backgroundColor:"blue"}}>   */}
 
-<div className="navbar">
-    <Row >
-    <Link to="/home" className="logo">
-        <Col className="logo"> 
-        <p> React Quicksight</p>
-        <p  style={{marginTop:"-23px",marginLeft:"76px"}}> Board</p>
-        <img src={logosmile} height="40px" width="150px" style={{margin:"-30px", marginLeft:"-40px", marginTop:"-75px"}}/> 
-        </Col>    
 
-    </Link>{" "}
+        <div style={{display:"flex"}}> 
+    
+        <img height="50px" width="50px" src={clubhouseicon} /> 
+        
+        <div style={{backgroundColor:"", paddingLeft:"10px"}}> 
+        <p style={{margin:"auto", width:"50%", float:"left"}}> Clubhouse Analytics </p>  
+        </div> 
 
-    </Row>
+        </div> 
 
-    <div style={{float:"right",marginBottom:"2%", marginRight:"1%"}}>
-    <Link className="about_button" to="/dashboard">
-<h5 className="about_button"> Dashboard </h5>
-    </Link>{" "}
-    <Link className="about_button" to="/about">
-<h5 className="about_button"> About </h5>
-    </Link>{" "}
+
+        {/* <Col xl={8}> </Col> */}
+    {/* </Row> */}
+    <div style={{float:"right"}}>
+    <p style={{margin:"auto", width:"50%"}}> About </p>  
+
+    </div>
+    </Container> 
     </div>
 
-</div>
+    </>
+
+// <div className="navbar">
+//     <div>
+//     <img height="50px" width="50px" src={clubhouseicon} /> 
+//     <div>
+//     <p style={{float:"left",height:"50px"}}> </p>
+//     </div>
+     
+//     </div>
+
+//     <div style={{backgroundColor:"red"}}> 
+
+
+//     </div>
+
+// </div> 
+
+
+
     )
 }
 export default NavigationBar; 

@@ -56,6 +56,28 @@
 }
 
 
+div > h1 {
+  color:white;    
+}
+
+div.banner-div{
+  height:42vh;
+  content:"";
+  position:"fixed";
+  z-index:-1;
+  }
+
+  div.banner-div::before { 
+    filter:brightness(0);
+    -webkit-backdrop-filter: blur(5px);
+    background-image:url(http://imgnews.naver.net/image/001/2014/07/01/PAP20140701204901034_P2_99_20140701204206.jpg); 
+
+    /* -webkit-filter:brightness(30%);     */
+
+  }
+
+
+
 
 /* Footer CSS  */
 .main-footer{
@@ -73,9 +95,9 @@
   font-size:16px;
   color:white;
   font-weight:900;
-  min-height:70px;
-  height:7vh;
-  padding-left:23px;
+  /* min-height:70px; */
+  /* height:7vh; */
+  /* padding-left:23px;  */
 }
 
 .logo{
